@@ -128,6 +128,7 @@ Next : we apply the fast forier transformation ,which is a fast algorithm for co
 The output of fft is a complex spectrum of the data so we need to take the absulate value (complex magnitude) of it by using the abs function.
 
 # Ploting the fft:
+![Forier Transformation](fft.png)
 Because brething is a periodic motion ,we can extract the frequency (rate) of breathing by performing Forier Transformation 
 The peak at the output of fft will corresponds to the dominant frequency .
 Which is in our case the breathing rate.
@@ -137,15 +138,15 @@ Dividing that by the duration of the simulation will give us the breathing rate 
 
 # Bibliography
 
-1. (n.d.). Retrieved from rf cafe: http://www.rfcafe.com/references/electrical/ew-radar-handbook/radar-cross-section.htm
+1. rf cafe: http://www.rfcafe.com/references/electrical/ew-radar-handbook/radar-cross-section.htm
 
-2. (n.d.). Retrieved from https://my.clevelandclinic.org/health/articles/10881-vital-signs
+2. https://my.clevelandclinic.org/health/articles/10881-vital-signs
 
-3. (n.d.). Retrieved from https://medisavvy.com/chest-expansion-test/
+3. https://medisavvy.com/chest-expansion-test/
 
 4. Camilla Kärnfelt, A. P. (2009). 77 GHz ACC Radar Simulation Platform.
 
 5. fadel adib,hongzi mao,zachary kabelac,dina katabi,robert c.miller. (2015). smart homes that monitor breathing and heart rate.
 
-6. Marta Cavagnaro, Erika Pittella, and Stefano Pisa. (2015). Numerical         Evaluation of the Radar Cross Section of Human Breathing. ACES JOURNAL.
+6. Marta Cavagnaro, Erika Pittella, and Stefano Pisa. (2015). Numerical        Evaluation of the Radar Cross Section of Human Breathing. ACES JOURNAL.
 
