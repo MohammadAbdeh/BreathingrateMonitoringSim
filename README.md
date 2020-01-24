@@ -1,9 +1,9 @@
 # BreathingrateMonitoringSim
 This simulation is done as a summer research project bu me under the supervision of Dr.Buse Melis Ozyildirim at Çukurova University.
 
-# Breathing rate monitoring simulation
+# Breathing rate monitoring Matlab simulation
 
-In this work I ask whether it is possible to simulate a human breathing behavior and yet simulate FMCW radar that can detect the chest distance range over time and then provide the breathing rate by processing the reflected signals.
+In this work I ask whether it is possible to simulate a human breathing behavior and yet simulate FMCW radar that can detect the chest distance range over time and then provide the breathing rate by processing the reflected signals using Matlab.
 
 FMCW radar (Frequency-Modulated Continuous Wave radar = FMCW radar) is a special type of radar sensor which radiates continuous transmission power like a simple continuous wave radar (CW-Radar). In contrast to this CW radar FMCW radar can change its operating frequency during the measurement: that is, the transmission signal is modulated in frequency (or in phase).
 
