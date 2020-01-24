@@ -128,7 +128,7 @@ Next : we apply the fast forier transformation ,which is a fast algorithm for co
 The output of fft is a complex spectrum of the data so we need to take the absulate value (complex magnitude) of it by using the abs function.
 
 # Ploting the fft:
-![Forier Transformation](fft.png)
+![](fft.PNG)
 Because brething is a periodic motion ,we can extract the frequency (rate) of breathing by performing Forier Transformation 
 The peak at the output of fft will corresponds to the dominant frequency .
 Which is in our case the breathing rate.
