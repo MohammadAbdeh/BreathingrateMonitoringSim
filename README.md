@@ -58,9 +58,9 @@ Modelling the target behavior is a crucial step for getting the rigth results
 And that is done by determinig the radar cross section(RCS).
 
 Radar cross section:  is the measure of targets ability to reflect radar signals 
-İn the direction of the radar reciever Error: Reference source not found].
+İn the direction of the radar reciever [1].
 
-I used a fixed RCS value determined by [Error: Reference source not found] as a result of breath anatomical model  at the tidal breath state (where lungs are partialy filled with air),
+I used a fixed RCS value determined by [4] as a result of breath anatomical model  at the tidal breath state (where lungs are partialy filled with air),
 The RCS‘s where computed at an azmuth angle  φ = 270°  (radar pointing directly to the target) at carrier frequency 7 GHZ .
 Used RCS=1.8m2.
 
@@ -109,6 +109,7 @@ sweeps are simulated and a range Doppler response is generated at the
 
 In order to measure the breathing rate we need to see the range changing rate over time while the breathing is proceeding Hence, we run the simulation script for many iterations in order to get a set of Ranges.
 
+![](rangeEstimations.PNG)
 After getting the range function we have to perform Forier Transformation on the signal in order to compute the breathing rate.
 
 # Forier Transformation
@@ -136,6 +137,8 @@ Which is in our case the breathing rate.
 Next after many times of running the simulation i realized that if we take the index of the peak and the index of the frequency 1 in the frequency vector ,and compute the absulate value of the thier difference ,this will give us how many times the brething has occured in the simulation.
 Dividing that by the duration of the simulation will give us the breathing rate in seconds.multiplying  by 60 will give us the breathing rate in minutes.
 
+This project is done on the basis of the FMCW matlab tutoral [7].
+
 # Bibliography
 
 1. rf cafe: http://www.rfcafe.com/references/electrical/ew-radar-handbook/radar-cross-section.htm
@@ -149,4 +152,5 @@ Dividing that by the duration of the simulation will give us the breathing rate 
 5. fadel adib,hongzi mao,zachary kabelac,dina katabi,robert c.miller. (2015). smart homes that monitor breathing and heart rate.
 
 6. Marta Cavagnaro, Erika Pittella, and Stefano Pisa. (2015). Numerical        Evaluation of the Radar Cross Section of Human Breathing. ACES JOURNAL.
+7. https://www.mathworks.com/help/phased/examples/automotive-adaptive-cruise-control-using-fmcw-technology.html
 
